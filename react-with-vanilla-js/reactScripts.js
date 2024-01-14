@@ -13,9 +13,8 @@ const Counter = ({ title }) => {
     </div>)
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-    <React.Fragment>
-        <Counter title="Counter 1" />
-        <Counter title="Counter 2" />
-    </React.Fragment>
-)
+const MyComponent = () => {
+    return (<h2>This is  heading 2</h2>)
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<MyComponent />)
